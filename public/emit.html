@@ -65,7 +65,7 @@
 			/* SOCKET.IO */
 
 			var socket = io();
-			
+
 			socket.on('connect', function () {
 				console.log('connected');
 			});
@@ -85,7 +85,7 @@
 					emit(canvas.toDataURL('image/webp'));
 			}
 
-			//setInterval(function() { sendFrame(video, context); }, 1000);
+			setInterval(function() { sendFrame(video, context); }, 1000);
 
 		})();
 		</script>

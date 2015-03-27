@@ -37,7 +37,7 @@
 
 		    /* SOCKET.IO */
 
-		    var socket = io.connect(window.document.location.host);
+		    var socket = io.connect();
 
 		    socket.on('connect', function () {
 		    	log('connected');
@@ -56,7 +56,7 @@
 
 			function log(message) {
 		       logger.innerHTML = logger.innerHTML + message + "<br/>";
-		    };			
+		    };
 
 		})();
 		</script>
