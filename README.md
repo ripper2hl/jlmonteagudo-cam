@@ -15,6 +15,6 @@ Los pasos para descargar y ejecutar la aplicación son los siguientes:
 
     $ npm start
 
-El servidor estará escuchando en el puerto 5000.
+El servidor estará escuchando en el puerto 3000.
 
 Abrir la url http://tu-ip:3000 con un navegador web en un dispositivo móvil con conexión wifi y seleccionar la opción Emitir Video. A continuación abrir la url http://tu-ip:3000 con el navegador de un PC y seleccionar la opción Visualizar Video. Las imágenes que se emitan a través del dispositivo móvil deberían de visualizarse en el navegador del PC.
